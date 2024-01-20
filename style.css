@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 187, 187) ;
+}
+.log__in{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 15px;
+    margin-top: 1vw;
+}
+.img__local img{
+    width:15vw;
+border-radius: 80%;
+
+}
+.log__in form{
+    font-family: 'Onest', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.log__in form input{
+    padding: 8px;
+    font-size:18px;
+    margin-top: 10px;
+    border: 0.5px solid ;
+    width: 100%;
+   
+}
+.log__in form input:focus{
+    outline: none;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vw;
+}
+.password{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vw;
+}
+.btn__logged{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn__logged button{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(25, 138, 0);
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn__logged button:hover{
+    
+    color: rgb(3, 5, 2);
+}
+.recuperar__contraseña{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    
+}
+.recuperar__contraseña a{
+    margin: 0.5vw;
+    color: black;
+    
+}
+.recuperar__contraseña a button{
+    background-color: rgb(255, 255, 255) ;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+   
+}
+.recuperar__contraseña a button:hover{
+    color: brown;
+}
+/* VALIDACIONES */
+.errores ul {
+    list-style-type: none;
+}
+.errores ul li{
+    font-size: 16px;
+    color: red;
+    font-family: 'Onest', sans-serif;
+    text-decoration: none;
+    font-weight: 900;
+}
+.errores{
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
